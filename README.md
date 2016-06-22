@@ -1,4 +1,4 @@
-# Arquivos de linguagem do Laravel 5.1 - Português do Brasil
+# Arquivos de linguagem do Laravel 5 - Português do Brasil
 
 ## Instalação
 
@@ -18,6 +18,6 @@
 2. Configurar o Framework para utilizar a linguagem como Default
 
   ```
-  // Linha 55 do arquivo config/app.php
+  // Linha 68 do arquivo config/app.php
   'locale' => 'pt-br',
   ```
