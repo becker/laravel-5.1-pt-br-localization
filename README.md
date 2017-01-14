@@ -2,7 +2,7 @@
 
 ## Instalação
 
-1. Clonar este projeto para uma pasta dentro de `resources/lang/`
+1. Clonar este projeto para a pasta `resources/lang/`
 
   ```
   $ cd resources/lang/
@@ -12,10 +12,10 @@
   Você pode remover o diretório .git para poder incluir e versionar os arquivos deste projeto no seu repositório.
 
   ```
-  $ rm -r pt-br/.git/
+  $ rm -rf pt-br/.git/
   ```
 
-2. Configurar o Framework para utilizar a linguagem como Default
+2. Configurar o Framework para utilizar a linguagem pt-br como Default
 
   ```
   // Linha 68 do arquivo config/app.php
