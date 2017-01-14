@@ -18,6 +18,6 @@
 2. Configurar o Framework para utilizar a linguagem pt-br como Default
 
   ```
-  // Linha 68 do arquivo config/app.php
+  // Arquivo config/app.php
   'locale' => 'pt-br',
   ```
