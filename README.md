@@ -2,22 +2,23 @@
 
 ## Instalação
 
-1. Clonar este projeto para a pasta `resources/lang/`
+1. Clonar este projeto para a pasta `resources/lang/`:
 
-  ```
-  $ cd resources/lang/
-  $ git clone https://github.com/becker/laravel-pt-br-localization.git ./pt-br
-  ```
-
-  Você pode remover o diretório .git para poder incluir e versionar os arquivos deste projeto no seu repositório.
-
-  ```
-  $ rm -rf pt-br/.git/
+  ```console
+$ cd resources/lang/
+$ git clone https://github.com/becker/laravel-pt-br-localization.git pt-BR
   ```
 
-2. Configurar o Framework para utilizar a linguagem pt-br como Default
+2. Você pode remover o diretório .git para poder incluir e versionar os arquivos deste projeto no seu repositório:
 
+  ```console
+  $ cd pt-BR
+  $ rm -rf .git/ README.md
   ```
-  // Arquivo config/app.php
-  'locale' => 'pt-br',
+
+3. Configurar o Laravel para utilizar a linguagem pt-BR como padrão:
+
+  ```console
+  # Arquivo config/app.php
+  'locale' => 'pt-BR',
   ```
